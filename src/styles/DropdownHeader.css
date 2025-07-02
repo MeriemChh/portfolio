@@ -30,7 +30,7 @@
 .dropdown-content {
   background: #fff;
   animation: fadeSlideDown 0.3s ease;
-  padding: 1.5rem 0;
+  padding: 10px 0;
 }
 
 .dropdown-nav {
