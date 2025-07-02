@@ -1,0 +1,153 @@
+.projects {
+  width: 100%;
+  height: auto;
+  background-color: #e8e8e8;
+  text-align: center;
+  display: flex;    
+  justify-content: center;
+  flex-direction: column;     
+  align-items: center; 
+  box-sizing: border-box;
+  padding: 4rem 0 4rem;
+  
+}
+
+.projects-title {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  color: black;
+  font-weight: 700;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.project-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+   box-sizing: border-box;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h3 {
+  font-size: 1.4rem;
+  color: black;
+  margin-bottom: 0.75rem;
+}
+
+.project-card p {
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  flex-grow: 1;
+  margin-bottom: 30px;
+}
+
+.project-card a {
+  margin-top: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  background: black;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  transition: background 0.3s;
+  display: inline-block;
+  width: fit-content;
+}
+
+.project-card a:hover {
+  background: #1e3a8a; 
+}
+  .other-box{
+    display: flex;  
+    flex-direction: column;
+
+  }
+
+img.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}
+.learn-more-button {
+  margin-bottom: 1rem;
+  background-color: white;
+  color: var(--primary-color);
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 0.95rem;
+  padding: 0;
+}
+
+.more-details {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: none;
+  font-size: 0.92rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+
+@media (max-width: 480px) {
+  .projects {
+    padding: 3rem 1rem;
+  }
+
+  .projects-grid {
+  grid-template-columns: 1fr;
+  }
+
+  .projects-title {
+    font-size: 1.6rem;
+  }
+
+  .project-card {
+    padding: 1.5rem;
+  }
+
+  .project-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .project-card p {
+    font-size: 0.9rem;
+  }
+
+  .project-card a {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+  .other-box{
+    display: flex;  
+    flex-direction: column;
+
+  }
+}

@@ -1,0 +1,110 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+
+  text-align: center;
+}
+body{
+  height: auto;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  background-color: white;
+
+  padding: 0;
+
+  min-height: 100vh;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+@keyframes ledColorCycle {
+  0%   { background-color: #ff0055; }
+  25%  { background-color: #ffcc00; }
+  50%  { background-color: #00ffcc; }
+  75%  { background-color: #3366ff; }
+  100% { background-color: #ff0055; }
+}
+
+.led-button {
+  padding: 0.75rem 1.5rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  animation: ledColorCycle 5s infinite linear;
+  transition: transform 0.3s;
+  width: 100%;
+}
+
+.led-button:hover {
+  transform: scale(1.01);
+}
+
+
+
+
+
+.glass-btn {
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 999px;
+  backdrop-filter: blur(8px) saturate(180%);
+  -webkit-backdrop-filter: blur(8px) saturate(180%);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+.glass-card{
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid rgba(16, 16, 16, 0.25);
+  border-radius: 15px;
+  backdrop-filter: blur(8px) saturate(180%);
+  -webkit-backdrop-filter: blur(8px) saturate(180%);
+  box-shadow: 0 4px 20px rgba(29, 20, 20, 0.05), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.glass-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 6px 30px rgba(255, 255, 255, 0.1), inset 0 2px 4px rgba(255, 255, 255, 0.15);
+  transform: translateY(-1px);
+}
+
+
+
+:root {
+  z-index: 0;
+  --primary-color: #2a0d4a;
+  --hover-color: #3c0f6b;
+  --mouse-light: radial-gradient(circle, #2abcff 0%, #2abcff44 , transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent 80%);
+  --darkapp-color: #16676b;
+  --app-color: #8bf0f3;
+  --app-gradient: linear-gradient(to right, #8bf0f3, #61c8e7, #2877b8);
+}
