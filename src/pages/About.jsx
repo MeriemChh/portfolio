@@ -12,16 +12,17 @@ function About() {
                     alt="Meriem profile"
                     className="hero-image"
                 />
-                  <div className="about-intro">
-                  <p className='white'><strong>📍 </strong> Laghouat, Algeria</p>
-                </div>
+
         </div>
     <div className="about-content">
         <h1>About Me</h1>
 
         <p className="about-intro">
           I'm Meriem Chakhoum, a passionate front-end developer who’s obsessed with clean UI, great UX, and building tools that make life easier. I love learning by doing, and I’m currently exploring full-stack development while working on my own startup.
+         I specialize with Vite & React and have a strong foundation in JavaScript, HTML, and CSS. I’m always looking for new challenges and opportunities to grow my web development skills.     
         </p>
+        <p> Age: 22y.o</p>
+         <p>📍 Laghouat, Algeria</p>
 
        <div className="about-section">
   <h2>🎓 Education</h2>

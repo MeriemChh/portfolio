@@ -12,11 +12,9 @@
   background-color: var(--primary-color);
   width: 30%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  flex-direction: column ;
   padding: 2rem;
-  text-align: center; 
 }
 
 .hero-image {
