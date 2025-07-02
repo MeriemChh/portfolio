@@ -5,7 +5,7 @@ import Activities from '../components/Activities';
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about">
         <div className="about-bar">
                 <img
                     src={Profile}

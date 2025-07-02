@@ -51,6 +51,35 @@
 .dropdown-nav a:hover {
   color: #3b0f6b;
 }
+.coming-soon-bubble {
+  position: fixed;
+  top: 70px;
+  right: 20vw;
+  background-color: #2a0d4a;
+  color: #fff;
+  padding: 0.75rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeInOut 2s ease forwards;
+  z-index: 1000;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  10%, 90% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
 
 @keyframes fadeSlideDown {
   from {

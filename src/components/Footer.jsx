@@ -4,7 +4,7 @@ import { FiMail } from 'react-icons/fi';
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id='contact'>
       <div className="footer-links">
         <a href="https://github.com/MeriemChh" target="_blank" rel="noreferrer">
           <FaGithub /> GitHub
