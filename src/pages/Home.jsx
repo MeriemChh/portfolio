@@ -3,6 +3,8 @@ import ProjectsSection from '../components/ProjectsSection';
 import '../styles/Home.css';
 import Footer from '../components/Footer';
 import RibbonHeader from '../components/DropdownHeader';            
+import Services from '../components/Services';
+import Contact from '../components/Contact';
 
 
 function Home() {
@@ -11,7 +13,8 @@ function Home() {
       <RibbonHeader />
       <Herosection/>
       <ProjectsSection />
-
+      <Services />
+      <Contact />
       <Footer/>
     </div>
   );

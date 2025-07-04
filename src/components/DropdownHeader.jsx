@@ -4,12 +4,6 @@ import '../styles/DropdownHeader.css';
 
 function DropdownHeader() {
   const [show, setShow] = useState(false);
-  const [bubble, setBubble] = useState(false);
-
-  const handleServiceClick = (e) => {
-    setBubble(true);
-    setTimeout(() => setBubble(false), 2000); // Disappear after 2 seconds
-  };
 
   return (
     <div className="dropdown-header-wrapper">
@@ -21,17 +15,12 @@ function DropdownHeader() {
         <div className="dropdown-content">
           <nav className="dropdown-nav">
             <a href="#projects">My Projects</a>
-            <a href="#services" onClick={handleServiceClick}>My Services</a>
-            <a href="#about">About Me</a>
+            <a href="#services">My Services</a>
+            <a href="#contact">Contact Me</a>
           </nav>
         </div>
       )}
 
-      {bubble && (
-        <div className="coming-soon-bubble">
-          🔧 Service page coming soon...
-        </div>
-      )}
     </div>
   );
 }

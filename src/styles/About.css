@@ -9,7 +9,9 @@
   color: #f9f9f9;
 }
 .about-bar {
-  background-color: var(--primary-color);
+  animation: GradientCycle 5s infinite linear;
+  transition: transform 0.3s;    
+  text-align: center;
   width: 30%;
   display: flex;
   align-items: flex-start;

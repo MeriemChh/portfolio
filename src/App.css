@@ -41,6 +41,13 @@ main{
   75%  { background-color: #3366ff; }
   100% { background-color: #ff0055; }
 }
+@keyframes GradientCycle{
+   0%   { background-color: #000000; }
+  25%  { background-color: #1e001f; }
+  50%  { background-color: #670072; }
+  75%  { background-color: #1e001f; }
+  100% { background-color: #000000; }
+}
 
 .led-button {
   padding: 0.75rem 1.5rem;

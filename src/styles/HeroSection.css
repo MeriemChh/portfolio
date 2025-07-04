@@ -4,8 +4,8 @@
     justify-content: center;
     height: 100dvh;
     width: 100%;
-    background-color: var(--primary-color);
-    text-align: center;
+    animation: GradientCycle 5s infinite linear;
+    transition: transform 0.3s;    text-align: center;
     bottom: 0;
 }
 .hero h1 {
